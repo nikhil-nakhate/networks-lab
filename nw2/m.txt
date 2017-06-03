@@ -1,0 +1,5 @@
+if(strcmp(hostname,"www.google.co.in")==0)
+	{
+	send(nsd,"BLOCKED HOST!!! U can't access this site",sizeof("BLOCKED HOST!!! U can't access this site"),0);
+	goto exit;
+	}
